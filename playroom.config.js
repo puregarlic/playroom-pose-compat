@@ -4,5 +4,8 @@ module.exports = {
 
   // Optional:
   title: 'Projection',
-  widths: [320, 375, 768, 1024]
+  widths: [320, 375, 768, 1024],
+  exampleCode: `
+    <Demo initialPose="enter" pose="exit"/>
+  `
 }
